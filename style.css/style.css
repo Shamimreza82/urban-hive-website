@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@200;300;400;500&family=Open+Sans:wght@400;500&family=PT+Serif&family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto:wght@100&family=Space+Mono&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+
+/* common classes */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Inter', sans-serif;
+}
+  /* Color (primary: #172D13  Secondary: #6BB77B Button: #D76F30) */
+
+/* navbar section start */
+
+nav {
+    background-color:#172D13 ;
+    color: aliceblue;
+}
+
+.nav-container {
+    min-height: 65px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+}
+
+ul {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-bar img {
+    width: 60px;
+}
+
+.urban-hive {
+    font-size: 1.50rem;
+    font-weight: 800;
+
+}
+
+.Btn-primary {
+    border: 2px solid black;
+    background-color: #D76F30;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.Btn-primary:hover {
+    background-color: #6BB77B;
+    transition: 0.3s;
+}
+
+
+/* header section start */
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 400px;
+    background-color: antiquewhite;
+    display: flex;
+    margin-top: 30px;
+}
+
+.header-text {
+    width: 50%;
+}
+
+.header-img {
+    width: 50%;
+}
+.header-img img {
+    width: 100%;
+}
